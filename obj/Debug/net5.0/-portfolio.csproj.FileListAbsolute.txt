@@ -29,8 +29,10 @@
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.TagHelpers.output.cache
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.RazorCoreGenerate.cache
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-/home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Home/Profile.cshtml.g.cs
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.RazorTargetAssemblyInfo.cs
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.Views.pdb
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.csproj.CopyComplete
+/home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Admin/adminpanel.cshtml.g.cs
+/home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Home/Portfolio.cshtml.g.cs
+/home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Home/Rezume.cshtml.g.cs
