@@ -15616,6 +15616,11 @@
       "FilePath": "/home/kirill/app/c#/-portfolio/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Admin/AdminPanel.cshtml",
+      "TargetPath": "Views\\Admin\\AdminPanel.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
