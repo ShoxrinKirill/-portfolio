@@ -4,7 +4,7 @@ namespace _portfolio.Controllers
 {
     public class AdminController : Controller
     {
-        public ViewResult AdminPanel()
+        public ViewResult adminpanel()
         {
             return View();
         }

@@ -9,7 +9,7 @@ namespace _portfolio.Controllers
             return View();
         }
 
-        public ViewResult AboutMe()
+        public ViewResult Rezume()
         {
             return View();
         }

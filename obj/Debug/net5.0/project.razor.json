@@ -15608,8 +15608,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Profile.cshtml",
-      "TargetPath": "Views\\Home\\Profile.cshtml",
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Admin/adminpanel.cshtml",
+      "TargetPath": "Views\\Admin\\adminpanel.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15618,8 +15618,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Admin/AdminPanel.cshtml",
-      "TargetPath": "Views\\Admin\\AdminPanel.cshtml",
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Rezume.cshtml",
+      "TargetPath": "Views\\Home\\Rezume.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Portfolio.cshtml",
+      "TargetPath": "Views\\Home\\Portfolio.cshtml",
       "FileKind": "mvc"
     }
   ],
