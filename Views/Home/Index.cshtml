@@ -2,20 +2,78 @@
     Layout = "_Layout";
 }
 
-<div class="conteiner">
-	<div class="row">
-		<div class="col"></div>
-		<div class="col col-sm">
-			<h2>Обо мне</h2>
-			<p class="abou_as">
-				Меня зовут Шохрин Кирилл Андреевич, мне 18 лет.
-				Я учусь на 3 курсе <a>Полевском филиале уральского радиотехнического колежда</a> на cпециалиста по информационным системам.
-				Самостоятельно изучал языки программирования Python, C#, C++. java, также изучал HTML, CSS и JS. В данный момент на практике использую Python и C#. 
-				Пока xразвиваюсь в веб-разработке(frontend, backend) <a href="#">примеры работ</a>, но еще хочу заниматься и разработкой программного обеспечения. Сейчас, в свободное время, 
-				изучаю ASP.NET Core MVC. Умею быстро находить нужную информацию в интернете, люблю изучать что-то новое и использовать это на практике.
+<style>
+	.row {
+		padding: 0;
+		margin: 0;
+	}
+	.example {
+		border-radius: 25px;
+		width: 250px;
+		height: 325px;
+		background-color: #2d3436;
+		color: #FFF;
+		margin-right: 15px;
+	}
+	.conteiner {
+		background-color: #dfe6e9;
+		width: 95%;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
+</style>
+
+<div class="conteiner text-center mt-3">
+	<div class="row m-auto mt-5 gy-3 d-flex justify-content-center">
+		<h2>Примеры работ</h2>
+		<div class="example col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<h3>Example 1</h3>
+			<img src="~/img/Example_1.png" alt="" class="w-100">
+			<p class="description">
+				Example 1
 			</p>
-			<h3>Оновлнно: </h3>
+			<a href="#" class="gitURL btn btn-primary my-2">Репозиторий на GitHub</a>
 		</div>
-		<div class="col col-sm"></div>
+		<div class="example col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<h3>Example 2</h3>
+			<img src="~/img/Example_1.png" alt="" class="w-100">
+			<p class="description">
+				Example 2
+			</p>
+			<a href="#" class="gitURL btn btn-primary my-2">Репозиторий на GitHub</a>
+		</div>
+		<div class="example col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<h3>Example 3</h3>
+			<img src="~/img/Example_1.png" alt="" class="w-100">
+			<p class="description">
+				Example 3
+			</p>
+			<a href="#" class="gitURL btn btn-primary my-2">Репозиторий на GitHub</a>
+		</div>
+		<div class="example col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<h3>Example 4</h3>
+			<img src="~/img/Example_1.png" alt="" class="w-100">
+			<p class="description">
+				Example 4
+			</p>
+			<a href="#" class="gitURL btn btn-primary my-2">Репозиторий на GitHub</a>
+		</div>
+		<div class="example col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<h3>Example 5</h3>
+			<img src="~/img/Example_1.png" alt="" class="w-100">
+			<p class="description">
+				Example 5
+			</p>
+			<a href="#" class="gitURL btn btn-primary my-2">Репозиторий на GitHub</a>
+		</div>
+		<div class="example col-xs-12 col-sm-4 col-md-3 col-lg-2">
+			<h3>Example 6</h3>
+			<img src="~/img/Example_1.png" alt="" class="w-100">
+			<p class="description">
+				Example 6
+			</p>
+			<a href="#" class="gitURL btn btn-primary my-2">Репозиторий на GitHub</a>
+		</div>
 	</div>
 </div>
