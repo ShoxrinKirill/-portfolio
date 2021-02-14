@@ -4,12 +4,62 @@
 }
 html {
     height: 100%;
+    width: 100%;
 }
 body {
-    height: 100%;
-    background-image: url("../img/background.jpg");
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+    height: 100%;  
+    width: 100%;
+    background: url("../img/background.jpg");
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+.exaple {
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #2d3436;
+}
+.exaple p {
+    font-size: 15px;
+}
+.container h2 {
+    color: #2d3436;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+main {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+    background-image: url("../img/main_bg.png");
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%;
+    background-size: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer {
+    margin-top: 15px;
+}
+@media (max-width: 576px) {
+    .col-sm-12 {
+        width: 250px;
+        margin-right: 0;
+    }
+}
+@media (min-width: 576px) {
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
 }

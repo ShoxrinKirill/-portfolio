@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/css/homestyle.css">
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-color: #fff;">
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d3436;">
         <div class="container">
             <h1 class="navbar-brand mb-2 ml-10 fs-20">Welcom</h1>
@@ -27,7 +27,16 @@
     <main>
         @RenderBody()
     </main>
-
+    <footer class="by-5 navbar-fixed-bottom">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d3436;">
+        <div class="container">
+            <ul class="navbar-nav mt-1 mr-auto">
+                <li class="nav-item"><a href="#" class="nav-link active">Портфолио</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Резюме</a></li>
+            </ul>
+        </div>
+    </nav>
+    </footer>
     <script src="~/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
