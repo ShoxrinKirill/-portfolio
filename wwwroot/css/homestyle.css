@@ -9,7 +9,7 @@ html {
 body {
     height: 100%;  
     width: 100%;
-    background: url("../img/background.jpg");
+    background: url("../img/background_2.jpg");
     -moz-background-size: 100%; 
     -webkit-background-size: 100%; 
     -o-background-size: 100%;
@@ -30,7 +30,7 @@ body {
     font-size: 15px;
 }
 .container h2 {
-    color: #2d3436;
+    color: #1b1919;
     padding-top: 10px;
     margin-top: 15px;
 }
@@ -50,6 +50,12 @@ main {
 }
 footer {
     margin-top: 15px;
+}
+footer a.soc-i {
+    color: #dfe6e9;
+    width: 5px;
+    height: 5px;
+    margin-right: 7px;
 }
 @media (max-width: 576px) {
     .col-sm-12 {

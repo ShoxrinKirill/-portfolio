@@ -1,12 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
+using _portfolio.Data.interfaces;
 
 namespace _portfolio.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Portfolio()
+        private readonly IExamples _allExamples;
+
+        public HomeController(IExamples iAllExamples)
         {
-            return View();
+            _allExamples = iAllExamples;
         }
 
         public ViewResult Rezume()
@@ -16,7 +19,8 @@ namespace _portfolio.Controllers
 
         public ViewResult Index()
         {
-            return View();
+            var examples = _allExamples.AllExamples;
+            return View(examples);
         }
     }
 }

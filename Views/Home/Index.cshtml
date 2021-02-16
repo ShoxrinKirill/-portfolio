@@ -1,17 +1,23 @@
+@using _portfolio.Data.Models
+@model IEnumerable<Example>
+
 @{
     Layout = "_Layout";
 }
 
-<div class="container text-center">
+<div class="container my-3 text-center">
 	<h2 style="margin-top: 5px; margin-bottom: 20px;">Примеры работ</h2>
 	<div class="row d-flex justify-content-center">
-		<div class="exaple col-sm-12 col-md-6 col-lg-4 col-xl-3">
-			<img class="col-img-top mt-3 mb-3 w-100" src="~/img/Example_1.png">
-			<div class="col-body">
-				<h5 class="col-title">Пример первый</h5>
-				<p class="col-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				<a href="#" class="btn btn-primary mb-3">Ссылка на репозитоий</a>
+		@foreach (var example in Model)
+		{
+			<div class="exaple col-sm-12 col-md-6 col-lg-4 col-xl-3">
+				<img class="col-img-top mt-3 mb-3 w-100" src="@example.img">
+				<div class="col-body">
+					<h5 class="col-title">@example.nameExample</h5>
+					<p class="col-text">@example.description</p>
+					<a href="#" class="btn btn-primary mb-3">Ссылка на репозитоий</a>
+				</div>
 			</div>
-		</div>
+		}
 	</div>
 </div>
