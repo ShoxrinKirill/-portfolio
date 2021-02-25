@@ -1,21 +1,37 @@
-@using _portfolio.Data.Models
-@model IEnumerable<Example>
+@using _portfolio.ViewModels
+@model PortfolioViewModels
 
 @{
     Layout = "_Layout";
+	ViewData["a1"] = "active";
+	ViewData["a2"] = "";
 }
 
-<div class="container my-3 text-center">
+<div class="container my-3 mb-1 text-center">
 	<h2 style="margin-top: 5px; margin-bottom: 20px;">Примеры работ</h2>
 	<div class="row d-flex justify-content-center">
-		@foreach (var example in Model)
+		@foreach (var example in Model.allExamples)
 		{
 			<div class="exaple col-sm-12 col-md-6 col-lg-4 col-xl-3">
 				<img class="col-img-top mt-3 mb-3 w-100" src="@example.img">
 				<div class="col-body">
 					<h5 class="col-title">@example.nameExample</h5>
 					<p class="col-text">@example.description</p>
-					<a href="#" class="btn btn-primary mb-3">Ссылка на репозитоий</a>
+					<a href="@example.gitUrl" class="btn btn-primary mb-3">Ссылка на репозитоий</a>
+				</div>
+			</div>
+		}
+	</div>
+	<h2 style="margin-top: 5px; margin-bottom: 20px;">Димпломы</h2>
+	<div class="row d-flex justify-content-center">
+		@foreach (var example in Model.allExamples)
+		{
+			<div class="exaple col-sm-12 col-md-6 col-lg-4 col-xl-3">
+				<img class="col-img-top mt-3 mb-3 w-100" src="@example.img">
+				<div class="col-body">
+					<h5 class="col-title">@example.nameExample</h5>
+					<p class="col-text">@example.description</p>
+					<a href="@example.gitUrl" class="btn btn-primary mb-3">Ссылка на репозитоий</a>
 				</div>
 			</div>
 		}

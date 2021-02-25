@@ -10,5 +10,6 @@ namespace _portfolio.Data
         }
 
         public DbSet<Example> Example { get; set; }
+        public DbSet<Diplomas> Diplomas { get; set; }
     }
 }

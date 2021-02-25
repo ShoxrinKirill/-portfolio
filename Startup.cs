@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using _portfolio.Data;
 using _portfolio.Data.interfaces;
-using _portfolio.Data.mocks;
 using _portfolio.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +26,7 @@ namespace _portfolio
         {
             services.AddDbContext<DatabaseContext>(options => options.UseSqlite(Configuration.GetConnectionString("sqlite")));
             services.AddTransient<IExamples, ExampleRepository>();
+            services.AddTransient<IDiplomas, DiplomaRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
@@ -37,11 +37,11 @@ namespace _portfolio
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
-            using(var scoupe = app.ApplicationServices.CreateScope())
-            {
-                DatabaseContext context = scoupe.ServiceProvider.GetRequiredService<DatabaseContext>();
-                DBObjects.Initial(context);
-            }
+            ////using(var scoupe = app.ApplicationServices.CreateScope())
+            //{
+            //    DatabaseContext context = scoupe.ServiceProvider.GetRequiredService<DatabaseContext>();
+            //    DBObjects.Initial(context);
+            //}
         }
     }
 }

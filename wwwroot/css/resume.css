@@ -1,0 +1,189 @@
+.resume {
+    margin: 20px;
+    font-size: 12px;
+    line-height: 19px;
+    width: 80%;
+}
+
+.resume__body {
+    margin-top: 25px
+}
+
+.resume__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 33px
+}
+
+.resume__block {
+    font-size: 15px;
+    color: #1b1919;
+    border-bottom: 1px solid #1b1919;;
+    margin-top: 25px;
+    margin-bottom: 7px
+}
+
+.resume__position {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.resume__salary {
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 700
+}
+
+.resume-specialization {
+    padding: 0 0 0 25px;
+    list-style-type: none
+}
+
+.resume-specialization:before {
+    content: '— '
+}
+
+.resume-experience {
+    margin-top: 20px
+}
+
+.resume-experience:first-child {
+    margin-top: 0
+}
+
+.resume-experience__company {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.resume-experience__position {
+    font-size: 16px;
+    line-height: 26px
+}
+
+.resume-education {
+    margin-top: 20px
+}
+
+.resume-education:first-child {
+    margin-top: 0
+}
+
+.resume-education__name {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.resume-education__name_small {
+    font-weight: inherit;
+    font-size: 12px;
+    margin-left: 25px
+}
+
+.resume-certificates {
+    margin-top: 20px
+}
+
+.resume-certificates:first-child {
+    margin-top: 0
+}
+
+.resume-certificates__certificate {
+    margin-top: 15px;
+    margin-left: 25px;
+    list-style-type: none
+}
+
+.resume-certificates__certificate:first-child {
+    margin-top: 0
+}
+
+.resume-certificates__certificate-item:before {
+    content: '— ';
+    margin-left: -15px
+}
+
+.resume-skils {
+    margin-top: 20px
+}
+
+.resume-skils:first-child {
+    margin-top: 0
+}
+
+.resume-skils__item {
+    margin-left: 25px
+}
+
+.resume-additional {
+    margin-top: 20px
+}
+
+.resume-additional:first-child {
+    margin-top: 0
+}
+
+.resume-additional__item {
+    margin-left: 25px
+}
+
+.resume-recomendation {
+    margin-top: 20px;
+    list-style-type: none
+}
+
+.resume-recomendation:before {
+    content: '— ';
+    margin-left: -15px
+}
+
+.resume-recomendation:first-child {
+    margin-top: 0
+}
+
+.resume-comment {
+    margin-top: 20px
+}
+
+.resume-comment:first-child {
+    margin-top: 0
+}
+
+.resume-topics {
+    margin-top: 20px
+}
+
+.resume-topics:first-child {
+    margin-top: 0
+}
+
+.resume-topics__topic {
+    margin-top: 20px;
+    margin-left: 25px;
+    list-style-type: none
+}
+
+.resume-topics__topic:first-child {
+    margin-top: 0
+}
+
+.resume-topics__topic:before {
+    content: '— ';
+    margin-left: -15px
+}
+
+.info {
+    font-size: 12px;
+    color: #1b1919;
+}
+
+.info-footer {
+    font-size: 11px;
+    color: #1b1919;
+}
+
+.hint {
+    font-size: 11px;
+    line-height: 15px;
+    color: #1b1919;
+}

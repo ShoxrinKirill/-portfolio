@@ -3,32 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Кирилл Шохрин</title>
     <link rel="stylesheet" href="~/css/homestyle.css">
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/resume.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color: #fff;">
-    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d3436;">
-        <div class="container">
-            <h1 class="navbar-brand mb-2 ml-10 fs-20">Welcom</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d3436;">
+            <div class="container">
+                <h1 class="navbar-brand mb-2 ml-10 fs-20">Welcom</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav mr-auto mb-2">
-                    <li class="nav-item"><a href="#" class="nav-link active">Портфолио</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Резюме</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mr-auto mb-2">
+                        <li class="nav-item"><a class='nav-link @ViewData["a1"]' asp-controller="Home" asp-action="Index">Портфолио</a></li>
+                        <li class="nav-item"><a class='nav-link @ViewData["a2"]' asp-controller="Home" asp-action="Rezume">Резюме</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <main>
-        @RenderBody()
-    </main>
-    <footer class="by-5 navbar-fixed-bottom">
+        </nav>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="by-5 mt-1 navbar-fixed-bottom">
         <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d3436;">
         <div class="container d-flex justify-content-center">
             <ul class="navbar-nav mt-1 mr-auto">

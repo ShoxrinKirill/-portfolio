@@ -15618,13 +15618,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Rezume.cshtml",
-      "TargetPath": "Views\\Home\\Rezume.cshtml",
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Portfolio.cshtml",
-      "TargetPath": "Views\\Home\\Portfolio.cshtml",
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Rezume.cshtml",
+      "TargetPath": "Views\\Home\\Rezume.cshtml",
       "FileKind": "mvc"
     }
   ],

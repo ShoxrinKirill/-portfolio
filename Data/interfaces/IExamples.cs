@@ -1,5 +1,3 @@
-using System;
-using System.Linq;
 using _portfolio.Data.Models;
 using System.Collections.Generic;
 
