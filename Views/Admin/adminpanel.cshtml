@@ -1,5 +1,70 @@
 @{
-    Layout = null;
+    Layout = "_Layout";
 }
+<style>
+    .btn {
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #1b1919;
+    }
+</style>
 
-<h1>Админ панель</h1>
+<div class="container my-3 mb-1 text-center">
+	<h2 style="margin-top: 5px; margin-bottom: 20px;">Админ панель</h2>
+	<div class="row mb-3 portfolio d-flex justify-content-center" style="border-bottom: 1px solid #1b1919;">
+        <h3>Добавить в портфолио</h3>
+        <div class="col"></div>
+        <div class="col">
+            <div style="border: 1px solid black; height: 200px; width: 200px;">
+                <img src="">
+                <button class="btn btn-primary mb-3">Загрузить фото</button>
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <input type="text" class="form-control" placeholder="Название"><br>
+                <input type="text" class="form-control" placeholder="Описание"><br>
+                <input type="text" class="form-control" placeholder="Ссылка на GitHub"><br>
+            </div>
+        </div>
+        <div class="col"></div>
+        <div class="col-12"></div>
+        <div class="col"></div>
+        <div class="col my-3 mb-5">
+            <button class="btn btn-primary">Добавить</button>
+        </div>
+        <div class="col"></div>
+	</div>
+    <div class="row">
+        <h3>Добавить диплом</h3>
+        <div class="col"></div>
+        <div class="col">
+            <div class="mb-1" style="border: 1px solid black; height: 200px; width: 200px;">
+                <img src="">
+                <button class="btn btn-primary mb-3">Загрузить фото</button>
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <input type="text" class="form-control" placeholder="Название"><br>
+            </div>
+        </div>
+        <div class="col"></div>
+        <div class="col-12"></div>
+        <div class="col"></div>
+        <div class="col mb-1">
+            <button class="btn btn-primary mb-3">Добавить</button>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row resume d-flex justify-content-center">
+		<div class="col">
+            
+        </div>
+	</div>
+</div>

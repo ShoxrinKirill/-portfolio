@@ -16,7 +16,7 @@ namespace _portfolio.Controllers
             //_allDiplomas = iAllDiplomas;
         }
 
-        public ViewResult Rezume()
+        public ViewResult Resume()
         {
             return View();
         }

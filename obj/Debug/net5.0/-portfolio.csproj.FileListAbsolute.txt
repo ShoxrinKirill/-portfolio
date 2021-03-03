@@ -34,7 +34,6 @@
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.Views.pdb
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/-portfolio.csproj.CopyComplete
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Admin/adminpanel.cshtml.g.cs
-/home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Home/Rezume.cshtml.g.cs
 /home/kirill/app/c#/-portfolio/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
 /home/kirill/app/c#/-portfolio/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /home/kirill/app/c#/-portfolio/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
@@ -64,3 +63,4 @@
 /home/kirill/app/c#/-portfolio/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/kirill/app/c#/-portfolio/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/home/kirill/app/c#/-portfolio/obj/Debug/net5.0/Razor/Views/Home/Resume.cshtml.g.cs

@@ -15603,6 +15603,11 @@
   "RootNamespace": "_portfolio",
   "Documents": [
     {
+      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Resume.cshtml",
+      "TargetPath": "Views\\Home\\Resume.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15620,11 +15625,6 @@
     {
       "FilePath": "/home/kirill/app/c#/-portfolio/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/kirill/app/c#/-portfolio/Views/Home/Rezume.cshtml",
-      "TargetPath": "Views\\Home\\Rezume.cshtml",
       "FileKind": "mvc"
     }
   ],
